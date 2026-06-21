@@ -20,7 +20,8 @@ The project is split into three modular stages to ensure clean code maintenance 
 │  
 │
 ├── scripts/                    # Python script for data cleaning and feature engineering
-│   ├── data_cleaning.py
+│   └── data_cleaning.py
+└── README.md
 ```
 
 ---
