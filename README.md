@@ -11,9 +11,16 @@ By shifting the operational decision boundary to a strategic **50% threshold**, 
 The project is split into three modular stages to ensure clean code maintenance and reproducibility. Please execute them in the following order:
 
 ```
-├── 1_data_cleaning.py       # Script 1: Raw data preprocessing and engineering
-├── 2_eda_analysis.ipynb     # Notebook 1: Deep-dive exploratory visual analysis
-└── 3_model_training.ipynb   # Notebook 2: Model tuning, thresholding & auditing
+├──datasets/
+│   ├── appointment_data
+│   └── cleaned_data
+├── notebooks/                  # Jupyter notebooks
+│   ├── exploratory_data_analysis.ipynb
+│   └── model_training.ipynb
+│  
+│
+├── scripts/                    # Python script for data cleaning and feature engineering
+│   ├── data_cleaning.py
 ```
 
 ---
